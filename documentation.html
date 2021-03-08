@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div class="navbar">
+                <div class="navbar__left">
+                    <img src="./img/logo-w 1.svg" alt="logo" class="animate__animated animate__flash">
+                    <span>Documentation</span>
+                </div>
+                <div class="navbar__right">
+                    <div class="right__menu">
+                        <a href="./index.html" class="menu__items">Главная</a>
+                        <a href="" class="menu__items">Документация</a>
+                        <a href="" class="menu__items">Добавить</a>
+                    </div>
+                    <input type="text" class="navbar__searchbar" placeholder="Поиск">
+                    <a href="" class="right__menu-github">Github</a>
+                </div>
+            </div>
+
+
+            <div class="scroll-block-container my-5 d-flex flex-wrap">
+                <div class="col-8">
+                    <div class="col-10 px-5 overflow-auto" style="height: 75vh">
+                        <H2 id="ol1">Вступление в HTML</H2>
+                        <p>Возврат нескольких элементов из компонента является распространённой практикой в React. Фрагменты позволяют формировать список дочерних элементов, не создавая лишних узлов в DOM.</p>
+
+                        <img class="col-8" src="./img/code_html.png" alt="">
+                        <p>Обратите внимание на первую строку <!DOCTYPE html>. DOCTYPE (document type) — служебная информация для браузера, где описывается стандарт HTML, который нужно обработать. Текущий стандарт HTML5 поддерживается всеми браузерами, поэтому достаточно указать в первой строке документа <!DOCTYPE html>, который говорит, что наш документ размечен по стандарту HTML5.</p>
+                        <H2 id="ol2">Начало работы с HTML</H2>
+                        <p>Далее открывается парный тег html с атрибутом lang="ru". Указание языка также необходимо для браузеров, особенно если сайт рассчитан на массовую аудиторию, в том числе и за рубежом.</p>
+                        <p>Во избежание ошибок, обе вышеописанные конструкции, при их отсутствии, будут добавлены браузером автоматически. В некоторых ситуациях браузеры могут добавить не те строки, которые вы бы хотели, и вместо обработки страницы по стандарту HTML5 браузер будет обрабатывать всё как HTML4, что приведёт к множеству проблем</p>
+                        <img class="col-8" src="./img/code_html2.png" alt="">
+                        <h2 id="ol3">Что в "шапке"? Метаданные в HTML</h2>
+                        <p>Тег &ltmeta&gt обеспечивает метаданные о HTML документе. Метаданные не отображаются на странице, но интерпретируются браузерами и поисковыми системами.
+                            Мета элементы, как правило, используются, чтобы указать описание страницы, ключевые слова, автора документа и другие метаданные. Разрешается и, как правило, необходимо использовать несколько метатегов. Тег &ltmeta&gt всегда размещается внутри тега &lthead&gt.
+                        </p>
+                        <h2 id="ol4">Тексты в HTML</h2>
+                        <h2 id="ol5">Создание гиперссылок</h2>
+                        <h2 id="ol6">Структура документа и веб-сайта</h2>
+                        <h2 id="ol7">Отладка HTML</h2>
+                        <h2 id="ol8">Изображения в HTML</h2>
+                        <h2 id="ol9">От object до iframe</h2>
+                    </div>
+                    <div class="col-10 d-flex flex-row justify-content-around my-5">
+                        <div>
+                            <img src="./img/pencil.svg" alt="">
+                            <span>Редактировать</span>
+                        </div>
+                        <div>
+                            <img src="./img/plus_sign.svg" alt="">
+                            <span>Добавить документацию</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="slide-bar col-4 bg-light">
+                    <ol class="px-5">
+                        <h4>HTML — структура Веба</h4>
+                        <li><a href="#ol1">Вступление в HTML</a></li>
+                        <li><a href="#ol2">Начало работы с HTML</a></li>
+                        <li><a href="#ol3">Что в "шапке"? Метаданные в HTML</a></li>
+                        <li><a href="#ol4">Тексты в HTML</a></li>
+                        <li><a href="#ol5">Создание гиперссылок</a></li>
+                        <li><a href="#ol6">Структура документа и веб-сайта</a></li>
+                        <li><a href="#ol7">Отладка HTML</a></li>
+                        <li><a href="#ol8">Изображения в HTML</a></li>
+                        <li><a href="#ol9">От object до iframe</a></li>
+                    </ol>
+                </div>
+            </div>
+            
+
+            
+            <footer class="footer">
+                <div class="footer__left">
+                    <img src="./img/logo-w 2.svg" alt="logo">
+                    <span>Community</span>
+                    <p>2021</p>
+                </div>
+
+                <div class="footer__right">
+                    <ul class="right_link">
+                        <a href="">Lorem Ipsum</a>
+                        <a href="">Lorem Ipsum</a>
+                        <a href="">Lorem Ipsum</a>
+                        <a href="">Lorem Ipsum</a>
+                        <a href="">Lorem Ipsum</a>
+                    </ul>
+
+                    <ul class="right_link">
+                        <a href="">Lorem Ipsum</a>
+                        <a href="">Lorem Ipsum</a>
+                        <a href="">Lorem Ipsum</a>
+                        <a href="">Lorem Ipsum</a>
+                        <a href="">Lorem Ipsum</a>
+                    </ul>
+
+                    <ul class="right_link">
+                        <a href="">Lorem Ipsum</a>
+                        <a href="">Lorem Ipsum</a>
+                        <a href="">Lorem Ipsum</a>
+                        <a href="">Lorem Ipsum</a>
+                        <a href="">Lorem Ipsum</a>
+                    </ul>
+
+
+                </div>
+            </footer>
+
+
+        </div>
+    </header>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
